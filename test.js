@@ -1,6 +1,14 @@
-function kiloMeterToMiles (kilo){
-    const mile = kilo * 0.621371;
-    return mile;
+function isLeapYear(year){
+    if(year % 100 === 0 && year % 4 === 0 ){
+        return true;
+    }
+    else if(year % 400 === 0){
+        return true;
+    }
+    else{
+        return false;
+    }
 }
-const convert = kiloMeterToMiles (4);
-console.log(convert);
+
+const isLeap = isLeapYear (2024);
+console.log(isLeap);
