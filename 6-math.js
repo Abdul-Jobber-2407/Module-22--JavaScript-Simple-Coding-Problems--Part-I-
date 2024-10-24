@@ -1,29 +1,22 @@
-// const Math = {
-//     min : function min (num1, num2){
-//         return num2;
-//     }
-// }
-// console.log(Math.min);
+const min = Math.min(54,1,56,1,354,576,678,35);
+console.log('Minimum of the array', min);
 
+const max = Math.max(24,25,36,457,3,346,80);
+console.log('Maximun of the array', max);
 
-const min = Math.min(54,1,56,99,123,-55);
-console.log('minimun of array in number:',min);
+console.log('PI er man',Math.PI);
 
-const max = Math.max(54,1,56,99,123,-55);
-console.log( 'maximum of array in number:',max);
+console.log('compaer of the valu',Math.abs(10-5));
 
-console.log(Math.PI);
+console.log('Near of  value ', Math.round(2.25));
+console.log('Near of value', Math.round(2.84));
 
-console.log(Math.abs(5-10));
+console.log('Always upper value show korbe',Math.ceil(2.9999));
+console.log('Always upper value show korbe', Math.ceil(2.0001));
 
-console.log(Math.round(2.25));
-console.log(Math.round(2.55));
-
-console.log(Math.ceil(2.99999999995));
-console.log(Math.ceil(2.0001));
-
-console.log(Math.random ());
-console.log(Math.random()*10);
+console.log('Any value show korbe',Math.random());
+console.log('Includes of 10 value show korbe',Math.random()*10);
 
 const rand = Math.round(Math.random()*10);
 console.log(rand);
+
