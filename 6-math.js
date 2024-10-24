@@ -17,6 +17,6 @@ console.log('Always upper value show korbe', Math.ceil(2.0001));
 console.log('Any value show korbe',Math.random());
 console.log('Includes of 10 value show korbe',Math.random()*10);
 
-const rand = Math.round(Math.random()*10);
+const rand = Math.round(Mafth.random()*10);
 console.log(rand);
 
